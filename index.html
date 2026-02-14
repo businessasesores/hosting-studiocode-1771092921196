@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio Code</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Studio Code</h1>
+      <nav>
+        <a href="#servicios">Servicios</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-content">
+      <h2>Construimos experiencias digitales reales</h2>
+      <p>Diseño, desarrollo y estrategia para marcas que quieren crecer.</p>
+      <button id="ctaBtn">Ver más</button>
+    </div>
+  </section>
+
+  <section id="servicios" class="section">
+    <div class="container">
+      <h2>Servicios</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Diseño Web</h3>
+          <p>Interfaces modernas, rápidas y optimizadas.</p>
+        </div>
+        <div class="card">
+          <h3>Desarrollo</h3>
+          <p>Aplicaciones robustas y escalables.</p>
+        </div>
+        <div class="card">
+          <h3>Estrategia Digital</h3>
+          <p>Posicionamiento y crecimiento orgánico.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="proyectos" class="section alt">
+    <div class="container">
+      <h2>Proyectos</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Startup Alpha</h3>
+          <p>Landing page + automatización.</p>
+        </div>
+        <div class="card">
+          <h3>Marca Beta</h3>
+          <p>E-commerce optimizado.</p>
+        </div>
+        <div class="card">
+          <h3>Comunidad Gamma</h3>
+          <p>Plataforma colaborativa.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="section">
+    <div class="container">
+      <h2>Contacto</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Correo" required>
+        <textarea placeholder="Mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="mensajeEnviado" class="mensaje"></p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Studio Code — Hosting by Business Asesores</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
