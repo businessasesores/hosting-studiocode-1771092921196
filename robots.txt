@@ -1,0 +1,5 @@
+# start of file
+User-agent: *
+disallow: /downloads/
+Disallow: /cgi-bin/
+Sitemap: https://studio.businessasesores.org/sitemap.xml
