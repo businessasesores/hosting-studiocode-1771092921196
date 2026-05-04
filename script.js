@@ -8,7 +8,7 @@ document.querySelectorAll("a[href^='#']").forEach(anchor => {
   });
 });
 
-// Botón CTA
+// BotÃ³n CTA
 document.getElementById("ctaBtn").addEventListener("click", () => {
   document.getElementById("servicios")
     .scrollIntoView({ behavior: "smooth" });
@@ -18,6 +18,6 @@ document.getElementById("ctaBtn").addEventListener("click", () => {
 document.getElementById("contactForm").addEventListener("submit", function(e) {
   e.preventDefault();
   document.getElementById("mensajeEnviado").textContent =
-    "Mensaje enviado correctamente ✔";
+    "Mensaje enviado correctamente âœ”";
   this.reset();
 });
