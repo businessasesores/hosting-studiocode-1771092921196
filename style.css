@@ -25,9 +25,12 @@ body {
 }
 
 .header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+      display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
 }
 
 .header a {
